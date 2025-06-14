@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>爬虫系统监视</title>
+    <link rel="icon" href="Favicon.ico">
+    <link rel="stylesheet" href="Style.css">
+    <script src="Control.js"></script>
+    <script src="Monitor.js"></script>
+    <script src="Update.js"></script>
+</head>
+<body>
+
+<div class="header-container">
+    <div class="button-group">
+        <button id="init-btn">添加初始任务</button>
+        <button id="logs-btn">下载运行日志</button>
+        <button id="halt-btn">中止从机任务</button>
+    </div>
+    <h1 id="monitor">监视未开启</h1>
+    <div class="button-group">
+        <button id="start-btn">启动监视</button>
+        <button id="pause-btn">关闭监视</button>
+    </div>
+</div>
+
+<div class="container">
+    <div id="left-container" class="list-container">
+        <h2>从机列表：</h2>
+        <ul>
+            <li><span>从机1 - 192.168.125.101</span><span>实例数 - 0</span></li>
+            <li><span>从机2 - 192.168.125.104</span><span>实例数 - 0</span></li>
+            <li><span>从机3 - 192.168.125.103</span><span>实例数 - 0</span></li>
+            <li><span>从机4 - 192.168.125.102</span><span>实例数 - 0</span></li>
+        </ul>
+    </div>
+    <div id="right-container" class="list-container">
+        <h2>任务列表：</h2>
+        <ul>
+            <li>已访问 - https://xxx.xxx.xxx</li>
+            <li>已访问 - https://xxx.xxx.xxx</li>
+            <li>已访问 - https://xxx.xxx.xxx</li>
+            <li>已访问 - https://xxx.xxx.xxx</li>
+            <li>待访问 - https://xxx.xxx.xxx</li>
+            <li>待访问 - https://xxx.xxx.xxx</li>
+            <li>待访问 - https://xxx.xxx.xxx</li>
+            <li>待访问 - https://xxx.xxx.xxx</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
