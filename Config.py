@@ -1,12 +1,12 @@
 # 初始网址与目标域名
-URL = 'https://www.cug.edu.cn'
-DOMAIN = 'www.cug.edu.cn'
+URL = ''
+DOMAIN = ''
 # 单机爬虫依赖
-BROWSER_PATH = 'C:/Program Save/Google/Chrome/Application/chrome.exe'
-DRIVER_PATH = 'C:/Program Save/Dependency/chromedriver.exe'
+BROWSER_PATH = ''
+DRIVER_PATH = ''
 # 多机爬虫依赖
-# BROWSER_PATH = './Chrome/chrome.exe'
-# DRIVER_PATH = './Chrome/chromedriver.exe'
+# BROWSER_PATH = ''
+# DRIVER_PATH = ''
 # 爬虫页面超时与无任务等待
 WAIT_FOR_PAGE = 10
 WAIT_FOR_TASK = 2
